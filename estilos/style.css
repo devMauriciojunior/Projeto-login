@@ -64,3 +64,43 @@ div#formu > h1 {
 div#formu > p {
    font-size: 0.8em;
 }
+
+form > input[type=submit] {
+   display: block;
+   font-size: 1em;
+   width: 80%;
+   height: 30px;
+   margin: 5px auto;
+   color: var(--cor1);
+   background-color: var(--cor2);
+   border: none;
+   border-radius: 10px;
+   cursor: pointer;
+}
+
+form > input[type=submit]:hover {
+   background-color: var(--cor3);
+}
+
+form > a.btn {
+   display: block;
+   width: 80%;
+   height: 30px;
+   margin: 0 auto;
+   text-align: center;
+   font-size: 0.8em;
+   text-decoration: none;
+   color: var(--cor4);
+   background-color: var(--cor1);
+   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.438);
+   border-radius: 10px;
+   cursor: pointer;
+}
+
+form > a.btn:hover {
+   background-color: #858585;
+}
+
+form > i {
+   margin-top: 10px;
+}
