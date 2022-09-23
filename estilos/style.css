@@ -53,7 +53,7 @@ section#login > div#img {
 
 section#login > div#formu {
    display: block;
-   padding: 15px;
+   padding: 20px;
 }
 
 div#formu > h1 {
@@ -65,12 +65,25 @@ div#formu > p {
    font-size: 0.8em;
 }
 
+form > .campo {
+   background-color: white;
+   margin: 10px 0px;
+   border-radius: 10px;
+   font-size: 1em;
+   height: 30px;
+}
+
+div.campo > label {
+   display: none;
+}
+
 form > input[type=submit] {
    display: block;
    font-size: 1em;
    width: 80%;
    height: 30px;
-   margin: 5px auto;
+   margin: 10px auto;
+   margin-top: 30px;
    color: var(--cor1);
    background-color: var(--cor2);
    border: none;
@@ -101,6 +114,8 @@ form > a.btn:hover {
    background-color: #858585;
 }
 
-form > i {
-   margin-top: 10px;
-}
+/*div.campo > i {
+   font-size: 1.9em;
+   width: 40px;
+   padding: 5px;
+}*/
