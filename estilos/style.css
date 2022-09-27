@@ -58,23 +58,44 @@ section#login > div#formu {
 
 div#formu > h1 {
    text-align: center;
-   margin: 15px 0px 15px 0px;
+   margin: 10px 0px 20px 0px;
+   text-transform: uppercase;
 }
 
 div#formu > p {
    font-size: 0.8em;
+   margin-bottom: 20px;
 }
 
 form > .campo {
-   background-color: white;
-   margin: 10px 0px;
+   background-color: var(--cor2);
+   margin: 5px 0px;
    border-radius: 10px;
    font-size: 1em;
-   height: 30px;
+   height: 35px;
 }
 
 div.campo > label {
    display: none;
+}
+
+div.campo > i  {
+   font-size: 1.5rem;
+   width: 35px;
+   padding: 6px;
+   margin-left: 5px;
+}
+
+div.campo > input {
+   border: none;
+   background-color: white;
+   color: var(--cor1);
+   font-size: 1rem;
+   height: 100%;
+   width: calc(100% - 44.2px) ;
+   padding: 5px;
+   border-radius: 0px 10px 10px 0px;
+   transform: translateY(-6.9px);
 }
 
 form > input[type=submit] {
@@ -82,8 +103,8 @@ form > input[type=submit] {
    font-size: 1em;
    width: 80%;
    height: 30px;
-   margin: 10px auto;
-   margin-top: 30px;
+   margin: 7px auto;
+   margin-top: 45px;
    color: var(--cor1);
    background-color: var(--cor2);
    border: none;
@@ -93,6 +114,11 @@ form > input[type=submit] {
 
 form > input[type=submit]:hover {
    background-color: var(--cor3);
+}
+
+form .material-icons {
+   font-size: 1rem;
+   padding: 3px;
 }
 
 form > a.btn {
