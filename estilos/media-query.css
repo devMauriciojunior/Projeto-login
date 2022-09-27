@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (orientation: landscape) and (max-width: 500px) {
+@media screen and (orientation: landscape) and (max-width: 768px) {
    body {
       background-image: linear-gradient(to top, #590C04, #BF2604);
    }
